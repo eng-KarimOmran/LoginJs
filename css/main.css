@@ -1,0 +1,42 @@
+:root{
+    --color-oraing:#FF8705;
+}
+.bg-img{
+    position: fixed;
+    inset: 0;
+    background-image: url("../img/pexels-jopwell-2422286.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px);
+}
+.bg-img::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: black;
+    opacity: 25%;
+}
+.h2-main span{
+    color: var(--color-oraing);
+}
+.bt-SinIn{
+    border: var(--color-oraing) 1px solid !important;
+}
+.bt-SinIn:hover{
+    background-color: var(--color-oraing) !important;
+    transition: 0.5s;
+}
+.bt-signUp{
+    border: green 1px solid !important;
+}
+.bt-signUp:hover{
+    background-color: green !important;
+    transition: 0.5s;
+}
+.WalcomUser h1{
+    font-size: 150px;
+    color: var(--color-oraing);
+}
+.WalcomUser h2{
+    font-size: 80px;
+}
